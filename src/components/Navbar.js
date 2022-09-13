@@ -27,7 +27,7 @@ function Navbar(){
  return(
     <nav className="navbar"> 
         <div className="navbar-container"> 
-            <Link to='/' className="navbar-logo" > 
+            <Link to='/' className="navbar-logo" onClick={closeMobileMenu}> 
              MyTravel <i className="fa fa-ravelry" aria-hidden="true"></i>
             </Link> 
             <div className="menu-icon" onClick={handleClick}> 
@@ -54,16 +54,14 @@ function Navbar(){
 
                 </li> 
                 <li className="nav-item"> 
-                    <Link to='/sign-up' className="nav-link-mobile" onClick={closeMobileMenu}> 
+                    <Link to='/sign-up' className="nav-link" onClick={closeMobileMenu}> 
                     Signup
                     </Link>
 
                 </li>
 
             </ul> 
-            {button && <Button  
-                         buttonStyle='btn-outline'
-                         >SIGN UP</Button>}
+            
 
         </div>
 

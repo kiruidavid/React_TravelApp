@@ -9,7 +9,7 @@
     cursor: pointer;
 } 
 .btn-primary{
-    background-color: var(--primary); 
+    background-color: blue; 
     color: #242424; 
     border: 1px solid var(--primary);
 } 

@@ -24,7 +24,8 @@
     text-decoration: none; 
     font-size: 2rem; 
     display: flex; 
-    align-items: center;
+    align-items: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }  
 .fa-ravelry{
     margin-left: 0.5rem; 
